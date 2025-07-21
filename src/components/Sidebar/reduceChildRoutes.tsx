@@ -1,4 +1,3 @@
-import React from "react";
 import { matchPath } from "react-router-dom";
 
 import { SidebarItemsType } from "../../types/navigation";

@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "peach-tattoo",
     "public": "public",
     "ignore": [
       "firebase.json",
