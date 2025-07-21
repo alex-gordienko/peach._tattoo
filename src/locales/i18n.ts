@@ -61,7 +61,7 @@ export const resources: Resource = {
           title: "💳 Предоплата",
           content: `
 Предоплата — это гарантия вашего визита и моего времени.
-После согласования даты я прошу внести предоплату в размере X € (укажешь свою сумму). Она входит в общую стоимость тату.
+После согласования даты я прошу внести предоплату в размере 10%. Она входит в общую стоимость тату.
 Если вы не пришли без предупреждения — предоплата не возвращается.
 Если вы предупредили за минимум 2 дня — можно перенести дату один раз.`,
         },
@@ -192,7 +192,7 @@ The consultation can be online or in person — as agreed.`,
           title: "💳 Prepayment",
           content: `
 Prepayment is a guarantee of your visit and my time.
-After agreeing on the date, I ask you to make a prepayment of X € (you specify your amount). It is included in the total cost of the tattoo.
+After agreeing on the date, I ask you to make a prepayment of 10%. It is included in the total cost of the tattoo.
 If you do not show up without warning — the prepayment is non-refundable.
 If you notify at least 2 days in advance — you can reschedule once.`,
         },
@@ -292,11 +292,11 @@ As with the film — peeling, itching, slight darkening — is normal. The color
 Nach Erhalt dieser Informationen melde ich mich bei Ihnen und wir besprechen alles im Detail.`,
         },
         accordion2: {
-          title: "⚠️ Wichtig: Kontraindikationen и Risiken",
+          title: "⚠️ Wichtig: Kontraindikationen und Risiken",
           content: `
 Vor dem Tätowieren ist es wichtig, Kontraindikationen zu berücksichtigen. Ich empfehle nicht, sich tätowieren zu lassen, wenn Sie:
  • Erkältung, Virusinfektion, Fieber haben
- • Hauterkrankungen im Bereich des zukünftigen Tattoos имеют
+ • Hauterkrankungen im Bereich des zukünftigen Tattoos
  • Probleme mit der Blutgerinnung haben
  • Schwanger sind oder stillen
  • Allergien gegen Pigmente, Antiseptika, Betäubungsmittel haben
@@ -323,7 +323,7 @@ Die Beratung kann online oder persönlich erfolgen — nach Vereinbarung.`,
           title: "💳 Vorauszahlung",
           content: `
 Die Vorauszahlung ist eine Garantie für Ihren Besuch und meine Zeit.
-Nach der Terminvereinbarung bitte ich Sie, eine Vorauszahlung von X € (Sie geben Ihren Betrag an) zu leisten. Sie ist im Gesamtpreis des Tattoos enthalten.
+Nach der Terminvereinbarung bitte ich Sie, eine Vorauszahlung von 10% zu leisten. Sie ist im Gesamtpreis des Tattoos enthalten.
 Wenn Sie ohne Vorankündigung nicht erscheinen, ist die Vorauszahlung nicht erstattbar.
 Wenn Sie mindestens 2 Tage im Voraus informieren, können Sie den Termin einmal verschieben.`,
         },
@@ -333,7 +333,7 @@ Wenn Sie mindestens 2 Tage im Voraus informieren, können Sie den Termin einmal 
 Die Korrektur erfolgt bei Bedarf, sie ist nicht immer erforderlich.
 Wichtig: 80% des Erfolgs des Tattoos hängen von der richtigen Pflege ab!
 Wenn Sie die Empfehlungen (Kratzern, Nichtauftragen von Salbe, Nassen, Abziehen der Kruste usw.) verletzen, kann das Tattoo ungleichmäßig heilen.
-In solchen Fällen nehme ich eine kostenpflichtige Korrektur zum минимальном Preis vor, da dies bereits eine Nachbearbeitung ist.
+In solchen Fällen nehme ich eine kostenpflichtige Korrektur zum minimal Preis vor, da dies bereits eine Nachbearbeitung ist.
 
 Wenn alles richtig verheilt ist und es nur kleine Nuancen gibt, passe ich es kostenlos an, aber nicht später als 2 Monate nach der Sitzung.`,
         },

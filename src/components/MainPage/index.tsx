@@ -119,8 +119,8 @@ const MainPage: React.FC = () => {
                 alt="Peach Tattoo"
                 loading="lazy"
                 style={{
-                  width: avatarSize * 1.7,
-                  height: avatarSize * 1.7,
+                  width: avatarSize * 1.3,
+                  height: avatarSize * 1.3,
                   objectFit: "cover",
                   borderRadius: "30%",
                   transition: "opacity 0.35s",
