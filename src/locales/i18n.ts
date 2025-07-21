@@ -109,7 +109,7 @@ export const resources: Resource = {
 Плёнка остаётся на коже. Может выделяться сукровица, это нормально.
 
 День 4–5:
-Снимаем плёнку аккуратно под тёплой водой. Промываем тату антисептическим мылом, сушим, наносим тонкий слой заживляющего крема (например, TattooMed, Pegasus и т.д.).
+Снимаем плёнку аккуратно под тёплой водой. Промываем тату антисептическим мылом, сушим, наносим тонкий слой заживляющего крема (например, Bepanthen и т.д.).
 
 День 6–14:
 Продолжаем мазать 2–3 раза в день. Кожа может шелушиться и чесаться — это часть процесса. Не чешем, не сдираем!
@@ -240,7 +240,7 @@ Day 1–3:
 The film remains on the skin. Serum may be released, which is normal.
 
 Day 4–5:
-Carefully remove the film under warm water. Rinse the tattoo with antiseptic soap, dry, and apply a thin layer of healing cream (e.g., TattooMed, Pegasus, etc.).
+Carefully remove the film under warm water. Rinse the tattoo with antiseptic soap, dry, and apply a thin layer of healing cream (e.g., Bepanthen etc.).
 
 Day 6–14:
 Continue to apply 2–3 times a day. The skin may peel and itch — this is part of the process. Do not scratch or peel!
@@ -371,7 +371,7 @@ Tag 1–3:
 Die Folie bleibt auf der Haut. Es kann Serum austreten, was normal ist.
 
 Tag 4–5:
-Entfernen Sie die Folie vorsichtig unter warmem Wasser. Reinigen Sie das Tattoo mit antiseptischer Seife, trocknen Sie es und tragen Sie eine dünne Schicht heilender Creme auf (z.B. TattooMed, Pegasus usw.).
+Entfernen Sie die Folie vorsichtig unter warmem Wasser. Reinigen Sie das Tattoo mit antiseptischer Seife, trocknen Sie es und tragen Sie eine dünne Schicht heilender Creme auf (z.B. Bepanthen usw.).
 
 Tag 6–14:
 Fahren Sie fort, 2–3 mal am Tag aufzutragen. Die Haut kann sich schälen und jucken — das ist Teil des Prozesses. Nicht kratzen oder abziehen!

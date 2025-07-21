@@ -89,7 +89,7 @@ const MainPage: React.FC = () => {
             }}
           >
             <Box display="flex" flexDirection="row" alignItems="center">
-              <Typography variant="h1">Peach._tattoo</Typography>
+              <Typography variant="h1">Peach_.tattoo</Typography>
               <IconButton
                 href="https://ig.me/m/peach_.tattoo/"
                 target="_blank"
@@ -223,7 +223,7 @@ const MainPage: React.FC = () => {
             variant="h1"
             sx={{ textAlign: "center", marginBottom: 5 }}
           >
-            Peach._tattoo
+            Peach_.tattoo
           </Typography>
           <Typography variant="h4">{t("text.headIntro")}</Typography>
           <ImageListItem
