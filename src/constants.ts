@@ -28,5 +28,6 @@ const availableRoutes = {
 const socialLinks = {
   INSTAGRAM: "https://ig.me/m/peach_.tattoo/",
   WHATSAPP: "https://wa.me/4915157952788",
+  TELEGRAM: "https://t.me/k_kotika",
 };
 export { availableRoutes, firebaseConfig, THEMES, socialLinks };

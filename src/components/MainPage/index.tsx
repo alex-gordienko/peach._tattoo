@@ -15,6 +15,7 @@ import {
 } from "@mui/material";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import TelegramIcon from "@mui/icons-material/Telegram";
 import { useTheme } from "@mui/material/styles";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
@@ -105,6 +106,14 @@ const MainPage: React.FC = () => {
               >
                 <WhatsAppIcon sx={{ fontSize: 40 }} />
               </IconButton>
+              <IconButton
+                href={socialLinks.TELEGRAM}
+                target="_blank"
+                rel="noopener noreferrer"
+                color="primary"
+              >
+                <TelegramIcon sx={{ fontSize: 40 }} />
+              </IconButton>
             </Box>
             <Typography>{t("text.headIntro")}</Typography>
             <ImageListItem
@@ -119,8 +128,8 @@ const MainPage: React.FC = () => {
                 alt="Peach Tattoo"
                 loading="lazy"
                 style={{
-                  width: avatarSize * 1.3,
-                  height: avatarSize * 1.3,
+                  width: avatarSize,
+                  height: avatarSize,
                   objectFit: "cover",
                   borderRadius: "30%",
                   transition: "opacity 0.35s",
@@ -187,6 +196,14 @@ const MainPage: React.FC = () => {
                 color="primary"
               >
                 <WhatsAppIcon sx={{ fontSize: 40 }} />
+              </IconButton>
+              <IconButton
+                href={socialLinks.TELEGRAM}
+                target="_blank"
+                rel="noopener noreferrer"
+                color="primary"
+              >
+                <TelegramIcon sx={{ fontSize: 40 }} />
               </IconButton>
             </Box>
           </Paper>
@@ -257,6 +274,14 @@ const MainPage: React.FC = () => {
               color="primary"
             >
               <WhatsAppIcon sx={{ fontSize: 50 }} />
+            </IconButton>
+            <IconButton
+              href={socialLinks.TELEGRAM}
+              target="_blank"
+              rel="noopener noreferrer"
+              color="primary"
+            >
+              <TelegramIcon sx={{ fontSize: 50 }} />
             </IconButton>
           </Box>
         </Paper>
