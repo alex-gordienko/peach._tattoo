@@ -9,6 +9,7 @@ import React, {
 import firebase from "firebase/app";
 import "firebase/auth";
 import "firebase/firestore";
+import "firebase/analytics";
 
 import {
   FirebaseAuthContextType,
@@ -22,7 +23,10 @@ const INITIALIZE = "INITIALIZE";
 
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
+  if (firebase.analytics) {
+    console.log("Firebase Analytics is enabled");
+    firebase.analytics();
+  }
   firebase.firestore();
 }
 
@@ -142,8 +146,6 @@ function AuthProvider({ children }: { children: ReactNode }) {
   };
 
   const auth = { ...state.user };
-
-  console.log("AuthProvider: auth", auth);
 
   return (
     <AuthContext.Provider
