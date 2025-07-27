@@ -22,6 +22,7 @@ const INITIALIZE = "INITIALIZE";
 
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
   firebase.firestore();
 }
 
