@@ -31,7 +31,7 @@ const MainPage: React.FC = () => {
 
   const avatarImages = [
     "static/img/avatars/HeadLogo.jpeg",
-    "static/img/avatars/photo_2025-07-21 16.18.51.jpeg",
+    // "static/img/avatars/photo_2025-07-21 16.18.51.jpeg",
   ];
 
   const avatarSize = 300; // px
