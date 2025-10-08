@@ -2,19 +2,25 @@ import React from "react";
 import Box from "@mui/material/Box";
 import { ImageList, ImageListItem } from "@mui/material";
 
-// Список изображений из папки /static/img/illustrations
 const images = [
-  "/static/img/illustrations/photo_2025-07-19 19.50.19.jpeg",
-  "/static/img/illustrations/photo_2025-07-19 19.50.23.jpeg",
-  "/static/img/illustrations/photo_2025-07-19 19.50.15.jpeg",
-  "/static/img/illustrations/photo_2025-07-19 19.50.28.jpeg",
-  "/static/img/illustrations/photo_2025-07-19 19.50.13.jpeg",
+  "/static/img/illustrations/2025-10-08 21.58.42.jpg",
+  "/static/img/illustrations/2025-10-08 21.59.47.jpg",
+  "/static/img/illustrations/2025-10-08 22.00.14.jpg",
+  "/static/img/illustrations/2025-10-08 22.01.12.jpg",
+  "/static/img/illustrations/2025-10-08 22.01.21.jpg",
+  "/static/img/illustrations/2025-10-08 22.01.33.jpg",
+  "/static/img/illustrations/2025-10-08 22.01.42.jpg",
+  "/static/img/illustrations/photo_2025-07-19 19.50.00.jpeg",
   "/static/img/illustrations/photo_2025-07-19 19.50.05.jpeg",
   "/static/img/illustrations/photo_2025-07-19 19.50.09.jpeg",
-  "/static/img/illustrations/photo_2025-07-19 19.50.25.jpeg",
-  "/static/img/illustrations/photo_2025-07-19 19.50.00.jpeg",
-  "/static/img/illustrations/photo_2025-07-19 19.50.21.jpeg",
+  "/static/img/illustrations/photo_2025-07-19 19.50.13.jpeg",
+  "/static/img/illustrations/photo_2025-07-19 19.50.15.jpeg",
   "/static/img/illustrations/photo_2025-07-19 19.50.17.jpeg",
+  "/static/img/illustrations/photo_2025-07-19 19.50.19.jpeg",
+  "/static/img/illustrations/photo_2025-07-19 19.50.21.jpeg",
+  "/static/img/illustrations/photo_2025-07-19 19.50.23.jpeg",
+  "/static/img/illustrations/photo_2025-07-19 19.50.25.jpeg",
+  "/static/img/illustrations/photo_2025-07-19 19.50.28.jpeg",
 ];
 
 const IMAGE_WIDTH = 240;
