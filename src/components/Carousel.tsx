@@ -13,14 +13,12 @@ const images = [
   "/static/img/illustrations/photo_2025-07-19 19.50.00.jpeg",
   "/static/img/illustrations/photo_2025-07-19 19.50.05.jpeg",
   "/static/img/illustrations/photo_2025-07-19 19.50.09.jpeg",
-  "/static/img/illustrations/photo_2025-07-19 19.50.13.jpeg",
   "/static/img/illustrations/photo_2025-07-19 19.50.15.jpeg",
   "/static/img/illustrations/photo_2025-07-19 19.50.17.jpeg",
   "/static/img/illustrations/photo_2025-07-19 19.50.19.jpeg",
   "/static/img/illustrations/photo_2025-07-19 19.50.21.jpeg",
   "/static/img/illustrations/photo_2025-07-19 19.50.23.jpeg",
   "/static/img/illustrations/photo_2025-07-19 19.50.25.jpeg",
-  "/static/img/illustrations/photo_2025-07-19 19.50.28.jpeg",
 ];
 
 const IMAGE_WIDTH = 240;
