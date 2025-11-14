@@ -58,6 +58,20 @@ export const resources: Resource = {
 Консультация может быть онлайн или лично — по договорённости.`,
         },
         accordion4: {
+          title: "🎨 Создание эскиза",
+          content: `
+Эскиз создаётся индивидуально под вас. Для этого мне нужна информация о ваших предпочтениях, стиле, размере и расположении татуировки. 
+После обсуждения всех деталей я приступаю к разработке эскиза, который мы можем корректировать до вашего полного удовлетворения.
+
+Важно понимать, что создание эскиза — это творческий процесс, который требует времени и внимания к деталям.
+Обычно на создание эскиза уходит от нескольких дней до недели, в зависимости от сложности и загруженности.
+
+Разработка эскиза не является бесплатной услугой и оплачивается отдельно по договорённости. Стоимость зависит от размера, сложности и времени, затраченного на его создание.
+
+После утверждения эскиза мы можем переходить к планированию сеанса татуировки.
+`,
+        },
+        accordion5: {
           title: "💳 Предоплата",
           content: `
 Предоплата — это гарантия вашего визита и моего времени.
@@ -65,17 +79,39 @@ export const resources: Resource = {
 Если вы не пришли без предупреждения — предоплата не возвращается.
 Если вы предупредили за минимум 2 дня — можно перенести дату один раз.`,
         },
-        accordion5: {
+        accordion6: {
+          title: "💉Стерилизация тату машинки (держак) и оборудования",
+          content: `
+Я использую многоэтапную стерилизацию держателя, чтобы обеспечить полную безопасность каждого клиента:
+
+1. Механическая очистка
+Сразу после работы держак проходит ручную механическую очистку, удаляются все видимые остатки краски и загрязнений.
+
+2. Обработка АХД
+Поверхность инструмента обрабатывается дезинфицирующим средством АХД, которое моментально уничтожает большинство бактерий и вирусов.
+
+3. Промывка водой
+После дезинфекции держатель тщательно промывается проточной водой.
+
+4. Замачивание в химических растворах для холодной стерилизации
+Инструмент помещается в специальный раствор, который обеспечивает глубокую стерилизацию даже труднодоступных участков.
+
+5. Финальная стерилизация в сухожаре
+Полностью подготовленный держак упаковывается в индивидуальный крафт-пакет и проходит финальную стерилизацию в сухожаре при высокой температуре.
+
+Я делаю всё, чтобы ваша татуировка создавалась в максимально чистых, безопасных и комфортных условиях
+          `,
+        },
+        accordion7: {
           title: "🛠️ Коррекция",
           content: `
 Коррекция проводится при необходимости, не всегда она требуется.
 Важно: 80% успеха татуировки — это правильный уход!
 Если вы нарушили рекомендации (царапали, не мазали, мочили, сдирали корочку и т.д.), тату может зажить неровно.
-В таких случаях я делаю платную коррекцию по минимальному прайсу, так как это уже доработка.
-
-Если всё зажило правильно и есть мелкие нюансы — я подкорректирую бесплатно, но не позже чем через 2 месяца после сеанса.`,
+В таких случаях я могу предложить платную коррекцию. Стоимость коррекции составляет 40% от стоимости татуировки, независимо от размера и сложности.
+`,
         },
-        accordion6: {
+        accordion8: {
           title: "🧼 Перед сеансом",
           content: `
 Чтобы тату прошла максимально комфортно:
@@ -86,7 +122,7 @@ export const resources: Resource = {
  • Придите в удобной одежде, открывающей нужную зону
  • Возьмите с собой хорошее настроение и доверие ко мне 😊`,
         },
-        accordion7: {
+        accordion9: {
           title: "☀️ Татуировки летом",
           content: `
 Летом делать тату можно, но важно понимать:
@@ -98,7 +134,7 @@ export const resources: Resource = {
 Если вы готовы соблюдать рекомендации — татуировка летом заживает не хуже, просто требует больше внимания.
 `,
         },
-        accordion8: {
+        accordion10: {
           title: "🐣 Заживление",
           content: `
 Заживление может проходить двумя способами — с плёнкой (Suprasorb или SecondSkin) или с пелёнками. Выбор зависит от тату и вашего типа кожи.
@@ -189,6 +225,20 @@ Consultation is needed to:
 The consultation can be online or in person — as agreed.`,
         },
         accordion4: {
+          title: "🎨 Sketch creation",
+          content: `
+The sketch is created individually for you. To do this, I need information about your preferences, style, size, and location of the tattoo. 
+After discussing all the details, I begin to develop a sketch, which we can adjust until you are completely satisfied.
+
+It is important to understand that creating a sketch is a creative process that requires time and attention to detail.
+It usually takes from a few days to a week to create a sketch, depending on the complexity and workload.
+
+Sketch development is not a free service and is paid for separately by agreement. The cost depends on the size, complexity, and time spent on its creation.
+
+Once the sketch is approved, we can move on to planning the tattoo session.
+          `,
+        },
+        accordion5: {
           title: "💳 Prepayment",
           content: `
 Prepayment is a guarantee of your visit and my time.
@@ -196,17 +246,40 @@ After agreeing on the date, I ask you to make a prepayment of 10%. It is include
 If you do not show up without warning — the prepayment is non-refundable.
 If you notify at least 2 days in advance — you can reschedule once.`,
         },
-        accordion5: {
+        accordion6: {
+          title:
+            "💉 Sterilization of tattoo machines (handpieces) and equipment",
+          content: `
+I use a multi-stage sterilization process for the holder to ensure complete safety for each client:
+
+1. Mechanical cleaning
+Immediately after use, the holder undergoes manual mechanical cleaning to remove all visible paint and dirt residues.
+
+2. AHD treatment
+The surface of the instrument is treated with an AHD disinfectant, which instantly destroys most bacteria and viruses.
+
+3. Rinsing with water
+After disinfection, the holder is thoroughly rinsed with running water.
+
+4. Soaking in chemical solutions for cold sterilization
+The instrument is placed in a special solution that ensures deep sterilization even in hard-to-reach areas.
+
+5. Final sterilization in a dry oven
+The fully prepared holder is packed in an individual kraft bag and undergoes final sterilization in a dry oven at a high temperature.
+
+I do everything to ensure that your tattoo is created in the cleanest, safest, and most comfortable conditions possible.
+          `,
+        },
+        accordion7: {
           title: "🛠️ Correction",
           content: `
 Correction is carried out if necessary, it is not always required.
 Important: 80% of the success of the tattoo depends on proper care!
 If you violate the recommendations (scratching, not applying ointment, wetting, peeling off the scab, etc.), the tattoo may heal unevenly.
-In such cases, I make a paid correction at the minimum price, as this is already refinement.
-
-If everything has healed properly and there are minor nuances — I will adjust it for free, but no later than 2 months after the session.`,
+In such cases, I can offer a paid correction. The cost of correction is 40% of the tattoo price, regardless of size and complexity.
+`,
         },
-        accordion6: {
+        accordion8: {
           title: "🧼 Before the session",
           content: `
 To make the tattooing process as comfortable as possible:
@@ -217,7 +290,7 @@ To make the tattooing process as comfortable as possible:
  • Wear comfortable clothing that exposes the required area
  • Bring a positive attitude and trust in me 😊`,
         },
-        accordion7: {
+        accordion9: {
           title: "☀️ Tattoos in summer",
           content: `
 It is possible to get tattoos in summer, but it's important to understand:
@@ -229,7 +302,7 @@ It is possible to get tattoos in summer, but it's important to understand:
 If you are ready to follow the recommendations — a tattoo in summer heals no worse, it just requires more attention.
 `,
         },
-        accordion8: {
+        accordion10: {
           title: "🐣 Healing",
           content: `
 Healing can occur in two ways — with film (Suprasorb or SecondSkin) or with diapers. The choice depends on the tattoo and your skin type.
@@ -320,6 +393,20 @@ Die Beratung ist erforderlich, um:
 Die Beratung kann online oder persönlich erfolgen — nach Vereinbarung.`,
         },
         accordion4: {
+          title: "🎨 Erstellung des Sketches",
+          content: `
+Der Sketch wird individuell für Sie erstellt. Dazu benötige ich Informationen über Ihre Vorlieben, Ihren Stil, die Größe und die Position der Tätowierung. 
+Nachdem wir alle Details besprochen haben, beginne ich mit der Entwicklung des Sketches, den wir so lange überarbeiten können, bis Sie vollkommen zufrieden sind.
+
+Es ist wichtig zu verstehen, dass die Erstellung eines Entwurfs ein kreativer Prozess ist, der Zeit und Liebe zum Detail erfordert.
+Normalerweise dauert die Erstellung eines Entwurfs je nach Komplexität und Auslastung zwischen einigen Tagen und einer Woche.
+
+Die Erstellung eines Entwurfs ist keine kostenlose Dienstleistung und wird nach Vereinbarung separat bezahlt. Die Kosten hängen von der Größe, der Komplexität und der für die Erstellung aufgewendeten Zeit ab.
+
+Nach der Genehmigung des Entwurfs können wir mit der Planung der Tätowierungssitzung beginnen.
+`,
+        },
+        accordion5: {
           title: "💳 Vorauszahlung",
           content: `
 Die Vorauszahlung ist eine Garantie für Ihren Besuch und meine Zeit.
@@ -327,17 +414,40 @@ Nach der Terminvereinbarung bitte ich Sie, eine Vorauszahlung von 10% zu leisten
 Wenn Sie ohne Vorankündigung nicht erscheinen, ist die Vorauszahlung nicht erstattbar.
 Wenn Sie mindestens 2 Tage im Voraus informieren, können Sie den Termin einmal verschieben.`,
         },
-        accordion5: {
+        accordion6: {
+          title:
+            "💉 Sterilisation der Tattoomaschine (Handstück) und des Equipments",
+          content: `
+Ich verwende eine mehrstufige Sterilisation des Handstücks, um die vollständige Sicherheit jedes einzelnen Kunden zu gewährleisten:
+
+1. Mechanische Reinigung
+Direkt nach der Sitzung wird das Handstück manuell und gründlich gereinigt, um alle sichtbaren Farbreste und Verunreinigungen zu entfernen.
+
+2. Behandlung mit AHD-Desinfektionsmittel
+Die Oberfläche des Instruments wird mit AHD-Desinfektionsmittel behandelt, das die meisten Bakterien und Viren sofort abtötet.
+
+3. Spülung mit Wasser
+Nach der Desinfektion wird das Handstück gründlich unter fließendem Wasser abgespült.
+
+4. Einlegen in chemische Lösungen zur Kaltsterilisation
+Das Instrument wird in eine spezielle Lösung eingelegt, die auch schwer zugängliche Bereiche effektiv sterilisiert.
+
+5. Endsterilisation im Heißluftsterilisator (Trockenschrank)
+Das vollständig vorbereitete Handstück wird in einen individuellen Kraft-Beutel verpackt und im Heißluftsterilisator bei hoher Temperatur final sterilisiert.
+
+Ich tue alles dafür, dass Ihre Tätowierung unter maximal sauberen, sicheren und komfortablen Bedingungen entsteht.
+          `,
+        },
+        accordion7: {
           title: "🛠️ Korrektur",
           content: `
 Die Korrektur erfolgt bei Bedarf, sie ist nicht immer erforderlich.
 Wichtig: 80% des Erfolgs des Tattoos hängen von der richtigen Pflege ab!
 Wenn Sie die Empfehlungen (Kratzern, Nichtauftragen von Salbe, Nassen, Abziehen der Kruste usw.) verletzen, kann das Tattoo ungleichmäßig heilen.
-In solchen Fällen nehme ich eine kostenpflichtige Korrektur zum minimal Preis vor, da dies bereits eine Nachbearbeitung ist.
-
-Wenn alles richtig verheilt ist und es nur kleine Nuancen gibt, passe ich es kostenlos an, aber nicht später als 2 Monate nach der Sitzung.`,
+In solchen Fällen kann ich eine kostenpflichtige Korrektur anbieten. Die Kosten für die Korrektur betragen 40 % des Preises für die Tätowierung, unabhängig von Größe und Komplexität.
+`,
         },
-        accordion6: {
+        accordion8: {
           title: "🧼 Vor der Sitzung",
           content: `
 Um den Tätowierungsprozess so angenehm wie möglich zu gestalten:
@@ -348,7 +458,7 @@ Um den Tätowierungsprozess so angenehm wie möglich zu gestalten:
  • Tragen Sie bequeme Kleidung, die den benötigten Bereich freilegt
  • Bringen Sie eine positive Einstellung und Vertrauen in mich mit 😊`,
         },
-        accordion7: {
+        accordion9: {
           title: "☀️ Tätowierungen im Sommer",
           content: `
 Es ist möglich, sich im Sommer tätowieren zu lassen, aber es ist wichtig zu beachten:
@@ -360,7 +470,7 @@ Es ist möglich, sich im Sommer tätowieren zu lassen, aber es ist wichtig zu be
 Wenn Sie bereit sind, die Empfehlungen zu befolgen, heilt ein Tattoo im Sommer nicht schlechter, es erfordert nur mehr Aufmerksamkeit.
 `,
         },
-        accordion8: {
+        accordion10: {
           title: "🐣 Heilung",
           content: `
 Die Heilung kann auf zwei Arten erfolgen — mit Folie (Suprasorb oder SecondSkin) oder mit Windeln. Die Wahl hängt vom Tattoo und Ihrem Hauttyp ab.
