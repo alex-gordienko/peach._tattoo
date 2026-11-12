@@ -19,30 +19,81 @@ const images = [
   "/static/img/illustrations/photo_2025-07-19 19.50.21.jpeg",
   "/static/img/illustrations/photo_2025-07-19 19.50.23.jpeg",
   "/static/img/illustrations/photo_2025-07-19 19.50.25.jpeg",
+  "/static/img/illustrations/2026-10-08 22.01.42.jpg",
+  "/static/img/illustrations/photo_2026-07-19 19.50.00.jpg",
+  "/static/img/illustrations/photo_2026-07-19 19.50.17.jpg",
+  "/static/img/illustrations/photo_2026-07-19 19.50.21.jpg",
+  "/static/img/illustrations/photo_2026-07-19 19.50.23.jpg",
+  "/static/img/illustrations/photo_2026-07-19 19.50.25.jpg",
 ];
 
 const IMAGE_WIDTH = 240;
 const GAP = 8;
+const SPEED = 40; // px per second
+const IDLE_MS = 60_000;
+const USER_EVENTS = ["wheel", "touchstart", "touchmove", "pointerdown", "keydown"];
 
 interface CarouselProps {
   isMobile?: boolean;
 }
 
+// Auto-scrolls a native scroll container; any user input pauses it for IDLE_MS.
+const useAutoScroll = (axis: "x" | "y") => {
+  const ref = React.useRef<HTMLDivElement>(null);
+
+  React.useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const prop = axis === "x" ? "scrollLeft" : "scrollTop";
+    let pausedUntil = 0;
+    let paused = false;
+    let last = performance.now();
+    let pos = el[prop]; // float: browsers round scrollTop, so slow steps would be lost
+    let frame = requestAnimationFrame(function tick(now) {
+      const dt = Math.min(now - last, 100); // a background tab must not cause a jump
+      last = now;
+      if (now < pausedUntil) {
+        paused = true;
+      } else {
+        if (paused) pos = el[prop]; // continue from where the user left it
+        paused = false;
+        const max =
+          axis === "x"
+            ? el.scrollWidth - el.clientWidth
+            : el.scrollHeight - el.clientHeight;
+        pos = pos >= max ? 0 : pos + (SPEED * dt) / 1000;
+        el[prop] = pos;
+      }
+      frame = requestAnimationFrame(tick);
+    });
+    const pause = () => {
+      pausedUntil = performance.now() + IDLE_MS;
+    };
+    USER_EVENTS.forEach((e) => el.addEventListener(e, pause, { passive: true }));
+
+    return () => {
+      cancelAnimationFrame(frame);
+      USER_EVENTS.forEach((e) => el.removeEventListener(e, pause));
+    };
+  }, [axis]);
+
+  return ref;
+};
+
 const Carousel: React.FC<CarouselProps> = ({ isMobile }) => {
+  const ref = useAutoScroll(isMobile ? "x" : "y");
+
   if (!isMobile) {
     return (
       <Box
+        ref={ref}
         sx={{
-          overflow: "hidden",
+          overflowX: "hidden",
+          overflowY: "auto",
           height: "55vh",
         }}
       >
-        <ImageList
-          variant="masonry"
-          cols={3}
-          gap={8}
-          sx={{ animation: "carousel-scroll 30s linear infinite" }}
-        >
+        <ImageList variant="masonry" cols={3} gap={8} sx={{ m: 0 }}>
           {images.map((item) => (
             <ImageListItem key={item}>
               <img
@@ -54,21 +105,17 @@ const Carousel: React.FC<CarouselProps> = ({ isMobile }) => {
             </ImageListItem>
           ))}
         </ImageList>
-        <style>{`
-        @keyframes carousel-scroll {
-          0% { transform: translateY(0); }
-          100% { transform: translateY(-50%); }
-        }
-      `}</style>
       </Box>
     );
   }
 
   return (
     <Box
+      ref={ref}
       sx={{
         width: "100%",
-        overflow: "hidden",
+        overflowX: "auto",
+        overflowY: "hidden",
         height: "400px",
         my: 4,
       }}
@@ -79,7 +126,6 @@ const Carousel: React.FC<CarouselProps> = ({ isMobile }) => {
           flexWrap: "wrap",
           gap: `${GAP}px`,
           width: "max-content",
-          animation: "carousel-scroll 30s linear infinite",
         }}
       >
         {images.map((src, idx) => (
@@ -99,12 +145,6 @@ const Carousel: React.FC<CarouselProps> = ({ isMobile }) => {
           />
         ))}
       </Box>
-      <style>{`
-        @keyframes carousel-scroll {
-          0% { transform: translateX(0); }
-          100% { transform: translateX(-50%); }
-        }
-      `}</style>
     </Box>
   );
 };
